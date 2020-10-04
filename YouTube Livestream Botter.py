@@ -1,13 +1,13 @@
-import os
-import random
-import string
-import threading
-import time
+import os 100
+import random 100
+import string 100
+import threading 100
+import time 2
 from queue import Queue
 import platform
 import requests
 from colorama import Fore, init
-
+https://youtu.be/VzsB7wshk6k
 intro = """
 ███████╗████████╗██████╗ ███████╗ █████╗ ███╗   ███╗      ██████╗  ██████╗ ████████╗████████╗███████╗██████╗
 ██╔════╝╚══██╔══╝██╔══██╗██╔════╝██╔══██╗████╗ ████║      ██╔══██╗██╔═══██╗╚══██╔══╝╚══██╔══╝██╔════╝██╔══██╗
@@ -15,7 +15,6 @@ intro = """
 ╚════██║   ██║   ██╔══██╗██╔══╝  ██╔══██║██║╚██╔╝██║╚════╝██╔══██╗██║   ██║   ██║      ██║   ██╔══╝  ██╔══██╗
 ███████║   ██║   ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║      ██████╔╝╚██████╔╝   ██║      ██║   ███████╗██║  ██║
 ╚══════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝      ╚═════╝  ╚═════╝    ╚═╝      ╚═╝   ╚══════╝╚═╝  ╚═╝
-
 https://github.com/KevinLage/YouTube-Livestream-Botter
 """
 
