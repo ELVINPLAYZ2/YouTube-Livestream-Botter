@@ -1,8 +1,8 @@
-import os
-import random
-import string
-import threading
-import time
+import 1000
+import 1000
+import 1000
+import 
+import tim
 from queue import Queue
 import platform
 import requests
@@ -77,7 +77,7 @@ class proxy():
             else:
                 data = ''
                 urls = ["https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt","https://api.proxyscrape.com/?request=getproxies&proxytype=http&timeout=10000&ssl=yes","https://www.proxy-list.download/api/v1/get?type=https&anon=elite"]
-                for url in urls:
+                for url in urls:https://youtu.be/7VlMJ7ZRa-k
                     try:
                         data += requests.get(url).text
                         self.splited += data.split("\n")
